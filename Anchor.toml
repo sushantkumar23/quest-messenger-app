@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+quest_messenger_app = "BeSh5cJ6KUZum4Axd7zZh1oBXXfC8FCu5J2DXvA5T2Wy"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/sushantkumar/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
